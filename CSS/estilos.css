@@ -1,0 +1,39 @@
+body{
+    border: 5px solid purple;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+footer{
+    border: 1px dotted red;
+}
+header img{
+    border-radius: 300px;
+    width: 190px;
+}
+header nav ul{
+    text-align: center;
+}
+
+header nav ul li {
+    background: #57cf97;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    color: white;
+    border: 1px solid red;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 16px 26px;
+}
+
+header nav ul li:hover {
+    background: green;
+    box-shadow: 0px 0px 0px white;
+    color: blue;
+}
+main section article{
+    border: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.8%;
+}

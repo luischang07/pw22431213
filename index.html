@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Idioma de la pagina-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--Ancho y largo del dispositivo movil-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo de la pestana-->
+    <title>Mi pagina web</title>
+</head>
+<body>
+    <!--Aqui se genera la pagina-->
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <br>Parrafo
+    <p>Parrafo</p>
+    <p>Parrafo
+        Parrafo2 <br> Parrafo
+    </p>
+    <!--Link: Se sustituye la pagina actual por la nueva-->
+    <a href="https://www.google.com">Enlace De Google</a>
+    <!--Link: Se abre en otra pestana-->
+    <a href="https://www.google.com" target="_blank">Enlace De Google</a>
+    <!--Lsta desordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <!--Lsta ordenada-->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ol>
+    <table border>
+        <caption>Titulo de la tabla</caption>
+        <thead>
+            <tr>
+                <th>Encabezado 1</th>
+                <th>Encabezado 2</th>
+                <th>Encabezado 3</th>
+                <th colspan="2">Encabezado 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato 7</td>
+                <td>Dato 8</td>
+                <td>Dato 9</td>
+                <td>Dato 10</td>
+                <td>Dato 11</td>
+            </tr>
+    </table>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Logo de Google" width="90">
+    <img src="Imagenes/images.jpeg" alt="Logo del CAT" width="90">
+    <!-- FORMULARIO -->
+    <form action="index.html" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" required>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <label for="password2">Repetir Contraseña:</label>
+        <input type="password" name="password2" id="password2" required>
+        <br>
+        <input type="number"><br>
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="datetime"><br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="reset" value="Limpiar">
+        <input type="submit" value="Enviar"><br>
+</body>
+</html>
